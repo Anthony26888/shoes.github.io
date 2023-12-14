@@ -1,0 +1,165 @@
+[
+  {
+    "id": "1",
+    "model": "Linx",
+    "name": "Máy in Linx 8900",
+    "img": "https://linx.com.vn/wp-content/uploads/2022/12/may-in-phun-cao-cap-linx-8900-1024x768.webp",
+    "description": "Linx 8900 hoạt động đơn giản hơn so với các dòng máy in phun thông thường khác, giúp gia tăng hiệu quả sản xuất hơn so với trước đó. Công nghệ in không tiếp xúc trực tiếp lên bề mặt sản phẩm trên hệ thống dây chuyền sản xuất.",
+    "feature": [
+      "Số dòng in: 1, 2, 3",
+      "Chiều cao ký tự: 2.1 mm đến 10.7 mm",
+      "Tốc độ in tối đa: 2.92 m/ giây (theo tiêu chuẩn in 1 dòng, với ký tự cao 5 chấm)",
+      "Tốc độ in tối đa: 1.46 m/ giây (in 2 dòng, với ký tự cao 7 chấm)",
+      "Khoảng cách từ đầu in đến sản phẩm: từ 12mm đến 20mm"
+    ],
+    "tech": [
+      "Đầu in bền với thiết kế kín, nhằm hạn chế sự ma sát và các tác động từ yếu tố bên ngoài môi trường. Đầu in súc rửa tự đông, định kỳ chu kỳ từ 3 tháng đến 6 tháng.",
+      "Màn hình điều khiển cảm ứng 10 inches, kháng nước và một số loại dung môi.",
+      "Vỏ bọc tiêu chuẩn IP55 – phù hợp với môi trường dội nước.",
+      "Máy có tính năng báo khi chuẩn bị hết mực hoặc dung môi. Khả năng tiếp liệu trực tiếp khi đang in, không cần ngừng dây chuyền in."
+    ],
+    "control": [
+      "Tạo và chỉnh sửa bản tin đơn giản",
+      "Cổng USB để sao lưu và chuyển bản tin, kết nối wifi cho Linx PrinterNet",
+      "Trình chỉnh sửa ngày và giờ, với chức năng nhảy ngày tự động",
+      "Có thể lưu trữ đến 1000 bản tin bằng bộ nhớ trong máy"
+    ],
+    "special": [
+      "Màn hình cảm ứng đủ màu 7 inch có tấm che polymer chắc chắn, chống dung môi",
+      "Vỏ máy làm bằng thép không gỉ cao cấp, đáp ứng tiêu chuẩn kháng bụi nước IP55",
+      "Dây đầu in dài 2m & 4m cho khách hàng lựa chọn",
+      "Dễ dàng tích hợp dây chuyền sản xuất"
+    ],
+    "Ink": "1039",
+    "Solution": "ádada"
+  },
+  {
+    "id": "2",
+    "model": "Linx",
+    "name": "Máy in Linx 8830",
+    "img": "https://linx.com.vn/wp-content/uploads/2022/10/8830-1024x683.jpg",
+    "description": "Linx 8830 là sản phẩm tâm huyết của chúng tôi, được thiết kế chuẩn mực, duy nhất cho thị trường Việt Nam. Chúng tôi mong rằng với Linx 8830, khách hàng sẽ dễ dàng tiếp cận công nghệ in phun tiên tiến Châu Âu với giá thành Việt Nam",
+    "feature": [
+      "In từ 3 đến 6 dòng, gồm: văn bản, ký hiệu và số, mã barcoders.",
+      "Chiều cao ký tự: 1.8mm đến 20 mm",
+      "Tốc độ in tối đa: 9.1m/ giây (theo tiêu chuẩn in 1 dòng, với ký tự cao 5 chấm)",
+      "In ký tự in đậm (lên đến 9 lần) và xoay chiều ký tự in (xoay theo góc 90 độ)"
+    ],
+    "tech": [
+      "Đầu in bền với thiết kế kín, nhằm hạn chế sự ma sát và các tác động từ yếu tố bên ngoài môi trường. Đầu in súc rửa tự đông, định kỳ chu kỳ từ 3 tháng đến 6 tháng.",
+      "Màn hình điều khiển cảm ứng 10 inches, kháng nước và một số loại dung môi.",
+      "Vỏ bọc tiêu chuẩn IP55 – phù hợp với môi trường dội nước.",
+      "Máy có tính năng báo khi chuẩn bị hết mực hoặc dung môi. Khả năng tiếp liệu trực tiếp khi đang in, không cần ngừng dây chuyền in."
+    ],
+    "control": [
+      "Tạo và chỉnh sửa bản tin đơn giản",
+      "Cổng USB để sao lưu và chuyển bản tin, kết nối wifi cho Linx PrinterNet",
+      "Trình chỉnh sửa ngày và giờ, với chức năng nhảy ngày tự động",
+      "Có thể lưu trữ đến 1000 bản tin bằng bộ nhớ trong máy"
+    ],
+    "special": [
+      "Màn hình cảm ứng đủ màu 7 inch có tấm che polymer chắc chắn, chống dung môi",
+      "Vỏ máy làm bằng thép không gỉ cao cấp, đáp ứng tiêu chuẩn kháng bụi nước IP55",
+      "Dây đầu in dài 2m & 4m cho khách hàng lựa chọn",
+      "Dễ dàng tích hợp dây chuyền sản xuất"
+    ],
+    "Ink": "1039",
+    "Solution": "ádada"
+  },
+  {
+    "id": "3",
+    "model": "Linx",
+    "name": "Máy in Linx 7900",
+    "img": "https://linx.com.vn/wp-content/uploads/2023/02/may-in-phun-linx-7900-1024x769.jpg",
+    "description": "Máy in date Linx 7900 là một dòng máy in mạnh mẽ, phù hợp để in trên nhiều dòng sản phẩm, ứng dụng trong nhiều ngành công nghiệp. Các tính năng tự động của máy in Linx 7900 giúp tăng năng suất và giảm lỗi in – nâng cao hiệu quả và giảm chi phí cho doanh nghiệp.",
+    "feature": [
+      "Số dòng in: Từ 1 – 5 dòng",
+      "Tốc độ in tối đa: 8.41 m/s",
+      "Số ký tự in tối đa: 2667",
+      "In nghịch đảo cho những dòng in đối xứng"
+    ],
+    "tech": [
+      "Khoảng thời gian dịch vụ định kỳ lên tới 18 tháng hoặc 9000 giờ",
+      "Bảo hành 18 tháng ",
+      "Vỏ bọc tiêu chuẩn IP55 – phù hợp với môi trường dội nước.",
+      "Các thiết bị cấu thành có tuổi thọ cao, tiêu chuẩn Anh Quốc, hạn chế tối đa phát sinh lỗi vặt, tiết kiệm chi phí bảo trì và sửa chữa"
+    ],
+    "control": [
+      "Linx Insight điều khiển máy in từ xa và theo dõi trạng thái hoạt động của máy",
+      "Giao diện menu WYSIWYG đơn giản, dễ dàng tạo và chỉnh sửa bản tin",
+      "QuickSwitch Plus có thể tự do lựa chọn và chỉnh sửa bản tin sử dụng Barcode Scanner",
+      "PrintSync lựa chọn Format in tự động",
+      "Print History Log lưu trữ nhật ký in",
+      "Cổng USB thuận tiện Copy và Back up dữ liệu bản tin và bản cài đặt, dễ dàng sao lưu bản tin giữa các máy in với nhau."
+    ],
+    "special": [
+      "Bề mặt bằng thép không gỉ, kết  cấu cong chống lại các tác nhân bụi bẩn",
+      "Tiêu chuẩn IP55, IP65 (7900 Spectrum)",
+      "Gọn nhẹ chỉ 21kg"
+    ],
+    "Ink": "1039",
+    "Solution": "ádada"
+  },
+  {
+    "id": "4",
+    "model": "Linx",
+    "name": "Máy in Linx 5900",
+    "img": "https://linx.com.vn/wp-content/uploads/2022/12/may-in-phun-linx-5900-1024x769.webp",
+    "description": "Máy in phun công nghiệp Linx 5900 là dòng máy chuyên dụng và phổ thông của Linx. Đảm bảo tính hiệu quả in luôn tốt nhất với chi phí vận hành thấp nhất.",
+    "feature": [
+      "In 3 dòng văn bản và logo là tiêu chuẩn có sẵn",
+      "Tốc độ in tối đa 7.28m/s (in 1 dòng)",
+      "Tốc độ in tối đa: 2.92 m/ giây (theo tiêu chuẩn in 1 dòng, với ký tự cao 5 chấm)",
+      "Độ cao chữ từ 1.4mm tới 10.7mm",
+      "In ký tự xoay (dạng hình tháp)"
+    ],
+    "tech": [
+      "In date code, Ngày sản xuất – Hạn sử dụng, số lô, số ca, mã vạch, logo, Quy cách sản phẩm.",
+      "Chất liệu in đa dạng như: nhựa, kim loại, giấy, thủy tinh,….",
+      "Tốc độ in tối đa 7.28m/s (in 1 dòng)",
+      "Độ cao chữ từ 1.4mm tới 10.7mm",
+      "In ký tự xoay (dạng hình tháp)"
+    ],
+    "control": [
+      "Màn hình màu WYSIWYG (1/4 VGA size)",
+      "Bàn phím QWERTY dạng cơ",
+      "Sử dụng phím nóng (Hot key) nên thao tác rất nhanh và tiện lợi.",
+      "Ngôn ngữ hiển thị TIẾNG VIỆT và 20 ngôn ngữ khác nhau, có thể GÕ CHỮ VIỆT.",
+      "Có thể giám sát máy Linx 5900 từ xa thông qua Smart phone, Laptop, PC.",
+      "Máy Linx 5900 có cổng USB và kết nối máy tính qua cống RS232, Enternet, Parallel I/O"
+    ],
+    "special": [
+      "Vỏ máy bằng thép không gỉ, được thiết kế cong để hạn chế sự bám bụi",
+      "Kết cấu IP55 là tiêu chuẩn có sẵn",
+      "Trọng lượng chỉ 21kg",
+      "Không yêu cầu khí nén",
+      "Nút khởi động và tắt máy đơn giản"
+    ],
+    "Ink": "1039",
+    "Solution": "ádada"
+  },
+  {
+    "id": "5",
+    "model": "Hitachi",
+    "name": "Máy in Hitachi PXR",
+    "img": "https://scontent.fsgn19-1.fna.fbcdn.net/v/t1.18169-9/10314599_900332720018335_2468519855930964348_n.jpg?stp=cp0_dst-jpg_e15_p320x320_q65&_nc_cat=111&ccb=1-7&_nc_sid=abdf32&_nc_ohc=7ghFNsBJ8k4AX-Pca18&_nc_oc=AQn8ykViItTQ7lXPtZ_TbhQIptsCPa0o3ZleScxg1ja0zeHqF2uZguykroaY-LXEZHvlDIq0REw_jAdVg57iwKu2&_nc_ht=scontent.fsgn19-1.fna&oh=00_AfDPHfUbtC-ZEheI_HoXWnJJDi3v7lITRZHBGL2g-7CluQ&oe=6597A54F",
+    "description": "Máy in phun liên tục từ công nghiệp đến dòng PXR-D của Hitachi được trang bị các tính năng cao cấp, bao gồm màn hình cảm ứng LCD TFT màu 10,4, khung nhôm đúc, thiết kế rốn linh hoạt dài 4m, v.v. Máy in phun mực phù hợp cho việc in ký tự vi mô cũng như lớn hơn và là lựa chọn tốt nhất cho các nhà lãnh đạo công nghiệp.",
+    "feature": [
+      
+    ],
+    "tech": [
+      "Vận hành dễ dàng và nhanh chóng bằng màn hình cảm ứng LCD TFT màu 10,4 inch lớn.",
+      "Hệ thống kiểm soát độ rơi tiên tiến đảm bảo chất lượng in ổn định trong mọi điều kiện môi trường.",
+      "Hệ thống hồi mực độc đáo giúp giảm sự bay hơi dung môi, giúp giảm thiểu sự trộn lẫn giữa không khí và mực.",
+      "RoHS 304 SS IP55.",
+      "Có thể in trên các sản phẩm có diện tích đánh dấu cực nhỏ.",
+      "Những mẫu này phù hợp để in trên các linh kiện nhỏ, dây điện, v.v. trong lĩnh vực điện và điện tử."
+    ],
+    "control": [
+    ],
+    "special": [
+    ],
+    "Ink": "1039",
+    "Solution": "ádada"
+  }
+]
