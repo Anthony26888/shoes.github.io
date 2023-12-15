@@ -1,6 +1,6 @@
 <template>
   <v-toolbar
-    class="bg-transparent"
+    class="p-4"
     dark
     density="comfortable"
     height="500px"
