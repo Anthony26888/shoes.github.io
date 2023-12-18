@@ -12,7 +12,7 @@
         </div>
       </VCol>
       <VCol>
-        <v-carousel :continuous="false" :show-arrows="false" hide-delimiter-background delimiter-icon="mdi-square">
+        <v-carousel :continuous="false" :show-arrows="false" hide-delimiter-background delimiter-icon="mdi-square" theme="light" cycle>
           <v-carousel-item v-for="value in item" :key="value">
             <v-img class="title-img" :src="value.image" cover></v-img>
             <div class="title-detail position-absolute top-50 start-0 translate-middle-y">
@@ -25,10 +25,13 @@
       </VCol>
     </VRow>
     <div class="d-flex mt-5 justify-content-around gap-4 p-5">
-      <v-card class="mx-auto card" width="100vh" height="400" theme="light" v-for="value in select" :key="value">
-        <div class="fs-1 text-center p-5">
-          {{ value.name }}
+      <v-card class="mx-auto card" width="100vh" height="300" theme="light" v-for="value in select" :key="value">
+        <div class="fs-1 p-5">
+          <span class="title-select">{{ value.name }}</span>         
         </div>
+        <v-card-actions>
+          <VBtn color="success" class="fs-6 p-5 text-center">SHOP NOW</VBtn>       
+        </v-card-actions>
       </v-card>      
     </div>
   </vContainer>
@@ -126,6 +129,14 @@ export default {
   background: #e0e0e0;
   box-shadow: 15px 15px 30px #bebebe,
     -15px -15px 30px #ffffff;
+}
+
+.title-select{
+  font-family: 'Inter', sans-serif;
+  font-family: 'Inter Tight', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 62px;
 }
 </style>
 <script setup>
