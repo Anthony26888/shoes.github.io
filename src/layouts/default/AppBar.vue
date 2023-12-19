@@ -3,14 +3,13 @@
     class="p-4"
     dark
     density="comfortable"
-    height="500px"
-    rounded="0"
+    height="500px"    
   >
     <v-btn icon @click.stop="drawer = !drawer" class="d-sm-none d-md-block">
       <v-icon>mdi-menu</v-icon>
     </v-btn>
     
-    <v-toolbar-title class="logo text-center"> fASHION sHOES </v-toolbar-title>
+    <v-toolbar-title class="logo text-center fs-2"> fASHION sHOES </v-toolbar-title>
 
     <v-btn icon>
       <v-icon>mdi-cart-variant</v-icon>
@@ -37,6 +36,7 @@
 <style scoped>
 .logo {
   font-family: Inter;
+  font-weight: 700;
 }
 </style>
 <script>

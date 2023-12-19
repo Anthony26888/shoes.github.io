@@ -12,7 +12,7 @@ const routes = [
         component: () => import(/* webpackChunkName: "home" */ '@/views/Home.vue'),
       },
       {
-        path: '/San-pham',
+        path: '/Prodcut',
         name: 'ListProduct',       
         component: () => import(/* webpackChunkName: "home" */ '@/views/ListProduct.vue'),
       },

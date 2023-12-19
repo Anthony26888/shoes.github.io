@@ -1,8 +1,8 @@
 // Utilities
 import { defineStore } from 'pinia'
-import products from "@/api/product.json"
+import products from "@/api/db.json"
 import { useLocalStorage } from "@vueuse/core"
-export const useAppStore = defineStore('app', {
+export const useAppStore = defineStore('grid', {
   state: () => {
     return {
       products,       
@@ -10,12 +10,10 @@ export const useAppStore = defineStore('app', {
     }
   }, 
   getters:{
-    Linx(){
-      return this.products.filter(value => value.model=="Linx")
-    },
-    Hitachi(){
-      return this.products.filter(value => value.model=="Hitachi")
-    }  
+    NewReleases(){
+      const sort =  this.products.sort((a,b) => a.release_date_unix-b.release_date_unix)
+      return sort.slice(0,10)
+    }
 
   },
   actions:{

@@ -111,7 +111,7 @@
 </template>
 
 <script>
-import { useAppStore } from "@/store/app";
+import { useAppStore } from "@/store/grid";
 import { storeToRefs } from "pinia";
 export default {
   components: "InfoProduct",
@@ -148,3 +148,4 @@ p{
   }
 }
 </style>
+@/store/grid

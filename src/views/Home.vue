@@ -4,7 +4,8 @@
       <carousels />
     </div>    
     <div class="col-12 p-5">      
-      <NewReleases/>
+      <Slide/>
+      <Banner/>
     </div>    
   </div>
   
@@ -12,5 +13,6 @@
 
 <script setup>
   import carousels from '@/components/Carousels-Home'  
-  import NewReleases from '@/components/New-Release'
+  import Slide from '@/components/Slide-Home'
+  import Banner from '@/components/Banner-Home'
 </script>
