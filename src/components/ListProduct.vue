@@ -1,5 +1,5 @@
-<template>
-  <v-data-iterator :items="store.products" :items-per-page="10" :search="search">
+<template>  
+  <v-data-iterator :items="store.products" :items-per-page="12" :search="search">
     <template v-slot:header>
       <v-toolbar class="px-2 bg-light">
         <VSpacer/>
@@ -52,7 +52,13 @@ const store = useAppStore();
 </script>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      
+    }
+  },
+};
 </script>
 <style scoped>
 .img:hover {

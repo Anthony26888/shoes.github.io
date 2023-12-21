@@ -45,7 +45,7 @@
     "id": 397517,
     "name": "Air Jordan 1 Mid 'Multicolor Swoosh Black'",
     "retail_price_cents": 11000,
-    "release_date_unix": null,
+    "release_date_unix": 1550361599,
     "grid_picture_url": "https://image.goat.com/375/attachments/product_template_pictures/images/012/910/690/original/554724_065.png.png"
   },
   {
@@ -93,7 +93,7 @@
   {
     "id": 365514,
     "name": "Travis Scott x Air Jordan 4 Retro 'Cactus Jack'",
-    "retail_price_cents": null,
+    "retail_price_cents": 2100,
     "release_date_unix": 1528588799,
     "grid_picture_url": "https://image.goat.com/375/attachments/product_template_pictures/images/012/478/518/original/365514_00.png.png"
   },
@@ -177,7 +177,7 @@
   {
     "id": 497870,
     "name": "Air Jordan 1 Retro High SB 'Light Bone'",
-    "retail_price_cents": null,
+    "retail_price_cents": 1300,
     "release_date_unix": 1558767600,
     "grid_picture_url": "https://image.goat.com/375/attachments/product_template_pictures/images/021/147/976/original/497870_00.png.png"
   },

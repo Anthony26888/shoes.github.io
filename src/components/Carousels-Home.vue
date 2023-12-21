@@ -42,19 +42,19 @@ export default {
     return {
       item: [
         {
-          name: "NikeCourt Zoom Vapor Cage 4 Rafa",
+          name: "Air Jordan 11 Retro 'Space Jam' 2016",
           image:
-            "https://s3-alpha-sig.figma.com/img/694c/c3e7/2d0a457d72c79e7f50c2637c81a3ef12?Expires=1703462400&Signature=EpI3eqwlZseCbcaXfsp2sETRo1jNF2g9y-Z0SITNz8gMnJC~dVmPpMPvkMr6OBpsvkxhkgsZ5sBc~Fdzm3TlpsoRfKLaQdmU5bL~4WC3b2HDmbANvTSBq-X46uNmqw~EVEI9gaHJBS-AYzYTLxaujLosu10mOJ1RqzABO7dj~bzMJ-dUozPFNJmerKC3fIn1p02NyM6TRXI9B9b1bv~zKWArWDKbkL4G0UqBUU5urmbZ6kd6ws4b0WOtrZN15BegMkoit~lVKkWStLl7-Rb36pkOTEuKvcUTpqaJPuvumih8ZtaSSOqkojjCkrm2UhUNX1ofgWfKQvNFiKcvcKRpaQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "https://image.goat.com/375/attachments/product_template_pictures/images/008/654/900/original/52015_00.png.png",
         },
         {
-          name: "NikeCourt Zoom rafa-hard-court",
+          name: "Air Jordan 11 Retro 'Legend Blue' 2014",
           image:
-            "https://s3-alpha-sig.figma.com/img/b8a5/2fe4/a4257d2dd14b71eeb3137180a77d8ed0?Expires=1703462400&Signature=bTh7RJmAUsAUWqFZGAXAobeNfrgQCkpaq5RU4FzvJC5Yo20jG3ef5N9QmkfQsuySrAFMLQ5yJAhdp4251K86K7NwyPMClJK2LzOs7AVX~-Y1swCs6i9hZm~6SiR0kWI~Z2JTvGt4jXM0B2uIRz15fpuRc8i7T5aOlw2yS5cJlrEVTqnOk3-fer7S1INkNCKQCpfDD7w3NIvxQSYijpovgHWi8xwrZlp-hiDWi9ENzb7uo98JQoSvPRKL9B8XcE83ZVYcbHtzuV3n1zt32B81V6NdlRTXYOWG3Yo6ebIqQtfKd4jIamiAuYcz39pXg-Sg0pD59s0OcndbSle5ZXsijw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "https://image.goat.com/375/attachments/product_template_pictures/images/010/223/048/original/13607_00.png.png",
         },
         {
-          name: "NikeCourt Zoom pro-hard-court",
+          name: "Air Jordan 4 Retro OG 'Bred' 2019",
           image:
-            "https://s3-alpha-sig.figma.com/img/6adf/0a4c/2db2495b5313988309e2cb80e94032b8?Expires=1703462400&Signature=hlpNoKCONdS4eaxFY4LbOh5e07fkn~WQCqa-xSrSAILQqKMYFreYZs21nE8AVnrN-D0jpjPrAGMmnF56EArrxyALCLhMCDXt8gweUl-dVjrBiiEZgRmRpIE8sRv9KcLrTAK1gCT6eg8XdPXNQhYJQaWPXIrqQhHb8kEi5nMpa7353e8DYn98v-y8PX0Y8uwQLaSNezXABzPoNFX6XPUf5b63mcvArDhn3Lm5JfzeaPdwFVVFY~8Ls4AuNPzHoS3i5t9GwQwh25Mtz4aO8mfPtgxbd0oCT5-R1DAO2xAT-kOm74YDFNOzn-ZmNK3oU~H8NLn2qlWWybeIJMVFMHLZDQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "https://image.goat.com/375/attachments/product_template_pictures/images/020/806/485/original/461782_00.png.png",
         },
       ],
       select: [
@@ -99,10 +99,11 @@ export default {
 }
 
 .title-img {
-  margin-top: 50px;
+  margin-top: 40px;
+  margin-left: 100px;
   width: 600px;
   height: 400px;
-  transform: rotate(-15deg);
+  transform: rotate(-45deg);
   flex-shrink: 0;
 }
 
