@@ -55,7 +55,7 @@ const store = useAppStore();
 export default {
   data() {
     return {
-      
+      search: '',
     }
   },
 };
