@@ -2,10 +2,10 @@
   <vContainer>
     <v-breadcrumbs :items="['Trang chủ', 'Sản Phẩm']"></v-breadcrumbs>
     <VRow>
-      <VCol cols="3">
+      <VCol cols="2">
         <FilterProduct/>
       </VCol>
-      <VCol cols="9">
+      <VCol cols="10">
         <ListProduct/>
       </VCol>
     </VRow>

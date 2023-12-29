@@ -1,16 +1,58 @@
 <template lang="">
-  <v-list :items="items"></v-list>
-  <v-list>
-    <v-divider></v-divider>
-    <v-list-subheader>Colour</v-list-subheader>
-    <v-list-item>
-      <v-row>
-        <v-col></v-col>
-        <v-col></v-col>
-        <v-col></v-col>
-      </v-row>
-    </v-list-item>
-  </v-list>
+  <v-infinite-scroll height="100vh">
+    
+    <v-list>
+      <v-list :items="items"></v-list>
+      <v-divider></v-divider>
+      <v-list-subheader>Colour</v-list-subheader>
+      <v-list-item>
+        <v-row >
+          <v-col cols="3">
+            <VBtn stacked variant="text">
+              <div class="bg-black m-2 p-3 circle"></div>
+              <p>Black</p>
+            </VBtn>
+            <VBtn stacked variant="text">
+              <div class="bg-white m-2 p-3 circle"></div>
+              <p>White</p>
+            </VBtn>
+            <VBtn stacked variant="text">
+              <div class="bg-blue m-2 p-3 circle"></div>
+              <p>Blue</p>
+            </VBtn>
+          </v-col>
+          <v-col cols="3">
+            <VBtn stacked variant="text">
+              <div class="bg-cream m-2 p-3 circle"></div>
+              <p>Cream</p>
+            </VBtn>
+            <VBtn stacked variant="text">
+              <div class="bg-multi m-2 p-3 circle"></div>
+              <p>Multi</p>
+            </VBtn>
+            <VBtn stacked variant="text">
+              <div class="bg-orange m-2 p-3 circle"></div>
+              <p>Orange</p>
+            </VBtn>
+          </v-col>
+          <v-col cols="3">
+            <VBtn stacked variant="text">
+              <div class="bg-red m-2 p-3 circle"></div>
+              <p>Red</p>
+            </VBtn>
+            <VBtn stacked variant="text">
+              <div class="bg-tan m-2 p-3 circle"></div>
+              <p>Tan</p>
+            </VBtn>
+            <VBtn stacked variant="text">
+              <div class="bg-grey m-2 p-3 circle"></div>
+              <p>Grey</p>
+            </VBtn>
+          </v-col>
+        </v-row>
+      </v-list-item>
+    </v-list>
+  </v-infinite-scroll>
 </template>
 <script>
 export default {
@@ -74,12 +116,30 @@ export default {
           title: "Women",
           value: 10,
         },
-      ],
-      colour:[
-        "Black","White", "Blue", "Cream", "Multi-Color", "Orange", "Red", "Tan", "Grey"
       ]
     };
   },
 };
 </script>
-<style lang=""></style>
+<style scoped>
+  p{
+    font-size: 10px;
+  }
+  .circle{
+    border-radius: 50%;
+  }
+  .bg-white{
+    border: 1px solid black    
+  }
+  .bg-cream{
+    background-color: #fffdd0;
+  }
+
+  .bg-multi{
+    background: radial-gradient(#FFFFFF 20%,transparent 20%), radial-gradient(#FFFFFF 20%,transparent 20%), #000;
+  }
+
+  .bg-tan{
+    background-color: #D2B48C;
+  }
+</style>
