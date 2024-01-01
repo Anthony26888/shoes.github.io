@@ -2,7 +2,7 @@
   <vContainer>
     <VRow>
       <VCol>
-        <div class="container d-flex flex-column justify-content-center algin-item-center p-5 w-75">
+        <div class="container d-flex flex-column justify-content-center algin-item-center p-5 w-100">
           <span class="title-name text-dark">Step Into Style with Our Trendy Shoes!</span><br />
           <span class="title-model text-red">2023</span><br />
 

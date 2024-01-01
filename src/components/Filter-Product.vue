@@ -1,12 +1,11 @@
 <template lang="">
-  <v-infinite-scroll height="100vh">
-    
+  <v-navigation-drawer width="300" height="100vh">
     <v-list>
       <v-list :items="items"></v-list>
       <v-divider></v-divider>
       <v-list-subheader>Colour</v-list-subheader>
       <v-list-item>
-        <v-row >
+        <v-row>
           <v-col cols="3">
             <VBtn stacked variant="text">
               <div class="bg-black m-2 p-3 circle"></div>
@@ -51,8 +50,9 @@
           </v-col>
         </v-row>
       </v-list-item>
+      
     </v-list>
-  </v-infinite-scroll>
+  </v-navigation-drawer>
 </template>
 <script>
 export default {
@@ -116,30 +116,31 @@ export default {
           title: "Women",
           value: 10,
         },
-      ]
+      ],
     };
   },
 };
 </script>
 <style scoped>
-  p{
-    font-size: 10px;
-  }
-  .circle{
-    border-radius: 50%;
-  }
-  .bg-white{
-    border: 1px solid black    
-  }
-  .bg-cream{
-    background-color: #fffdd0;
-  }
+p {
+  font-size: 10px;
+}
+.circle {
+  border-radius: 50%;
+}
+.bg-white {
+  border: 1px solid black;
+}
+.bg-cream {
+  background-color: #fffdd0;
+}
 
-  .bg-multi{
-    background: radial-gradient(#FFFFFF 20%,transparent 20%), radial-gradient(#FFFFFF 20%,transparent 20%), #000;
-  }
+.bg-multi {
+  background: radial-gradient(#ffffff 20%, transparent 20%),
+    radial-gradient(#ffffff 20%, transparent 20%), #000;
+}
 
-  .bg-tan{
-    background-color: #D2B48C;
-  }
+.bg-tan {
+  background-color: #d2b48c;
+}
 </style>

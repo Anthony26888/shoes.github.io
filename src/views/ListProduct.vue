@@ -1,16 +1,15 @@
 <template>
-  <vContainer>
-    <v-breadcrumbs :items="['Trang chủ', 'Sản Phẩm']"></v-breadcrumbs>
-    <VRow>
-      <VCol cols="2">
-        <FilterProduct/>
+  <v-breadcrumbs :items="['Trang chủ', 'Sản Phẩm']"></v-breadcrumbs>
+  <v-app>
+    <VRow justify-sm="center">
+      <VCol cols="2" sm="3">
+        <FilterProduct />
       </VCol>
-      <VCol cols="10">
-        <ListProduct/>
+      <VCol cols="10" sm="9">
+        <ListProduct />
       </VCol>
     </VRow>
-  </vContainer>
-  
+  </v-app>
 </template>
 
 <script setup>
