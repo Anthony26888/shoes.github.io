@@ -1,49 +1,49 @@
 <template lang="">
   <v-navigation-drawer width="300" height="100vh">
-    <v-list>
-      <v-list :items="items"></v-list>
+    <v-list>      
+      <v-list :items="items" :value="item"></v-list>
       <v-divider></v-divider>
       <v-list-subheader>Colour</v-list-subheader>
       <v-list-item>
         <v-row>
           <v-col cols="3">
-            <VBtn stacked variant="text">
+            <VBtn stacked >
               <div class="bg-black m-2 p-3 circle"></div>
               <p>Black</p>
             </VBtn>
-            <VBtn stacked variant="text">
+            <VBtn stacked >
               <div class="bg-white m-2 p-3 circle"></div>
               <p>White</p>
             </VBtn>
-            <VBtn stacked variant="text">
+            <VBtn stacked>
               <div class="bg-blue m-2 p-3 circle"></div>
               <p>Blue</p>
             </VBtn>
           </v-col>
           <v-col cols="3">
-            <VBtn stacked variant="text">
+            <VBtn stacked >
               <div class="bg-cream m-2 p-3 circle"></div>
               <p>Cream</p>
             </VBtn>
-            <VBtn stacked variant="text">
+            <VBtn stacked >
               <div class="bg-multi m-2 p-3 circle"></div>
               <p>Multi</p>
             </VBtn>
-            <VBtn stacked variant="text">
+            <VBtn stacked >
               <div class="bg-orange m-2 p-3 circle"></div>
               <p>Orange</p>
             </VBtn>
           </v-col>
           <v-col cols="3">
-            <VBtn stacked variant="text">
+            <VBtn stacked >
               <div class="bg-red m-2 p-3 circle"></div>
               <p>Red</p>
             </VBtn>
-            <VBtn stacked variant="text">
+            <VBtn stacked >
               <div class="bg-tan m-2 p-3 circle"></div>
               <p>Tan</p>
             </VBtn>
-            <VBtn stacked variant="text">
+            <VBtn stacked >
               <div class="bg-grey m-2 p-3 circle"></div>
               <p>Grey</p>
             </VBtn>
@@ -90,21 +90,21 @@ export default {
         { type: "subheader", title: "Box Condition" },
         {
           title: "Good Condition",
-          value: 5,
+          value: "Good Condition",
         },
         {
           title: "No Original Box",
-          value: 6,
+          value: "No Original Box",
         },
         { type: "divider" },
         { type: "subheader", title: "Shoe Condition" },
         {
           title: "New no defects",
-          value: 7,
+          value: "New no defects",
         },
         {
           title: "Used",
-          value: 8,
+          value: "Used",
         },
         { type: "divider" },
         { type: "subheader", title: "Gender" },
@@ -116,7 +116,7 @@ export default {
           title: "Women",
           value: 10,
         },
-      ],
+      ]
     };
   },
 };

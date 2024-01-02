@@ -10,7 +10,7 @@
 
     <template v-slot:default="{ items }">
       <div class="d-flex flex-wrap justify-lg-start justify-sm-center algin-center">
-        <v-card class="m-2" width="200" height="350" variant="elevated" v-for="value in items" :key="value">
+        <v-card class="m-2" width="220" height="350" variant="elevated" v-for="value in items" :key="value">
           <v-img class="align-end text-white img" :src="value.raw.grid_picture_url" cover>
 
           </v-img>
