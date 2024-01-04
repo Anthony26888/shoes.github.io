@@ -20,7 +20,7 @@
           <v-card-actions>
             <b class="fs-5">${{ value.raw.retail_price_cents }}</b>
             <VSpacer />
-            <router-link to="/Product">
+            <router-link to="/Detail">
               <v-btn color="green">
                 Detail
               </v-btn>

@@ -24,16 +24,14 @@
         </v-carousel>
       </VCol>
     </VRow>
-    <div class="d-flex mt-5 justify-content-around gap-4 p-5">
-      <v-card class="mx-auto card" width="100vh" height="300" theme="light" v-for="value in select" :key="value">
-        <div class="fs-1 p-5">
-          <span class="title-select">{{ value.name }}</span>         
-        </div>
-        <v-card-actions>
-          <VBtn color="success" class="fs-6 p-5 text-center">SHOP NOW</VBtn>       
-        </v-card-actions>
-      </v-card>      
+    <v-divider></v-divider>
+    <div class="d-flex mt-5 justify-content-around gap-4 pb-4">      
+      <v-img src="../assets/Image/Brands/Adidas_Logo.svg.png" width="50" height="50"></v-img>  
+      <v-img src="../assets/Image/Brands/Logo_NIKE.svg.png" width="50" height="50"></v-img>  
+      <v-img src="../assets/Image/Brands/Jordan_Logo.jpg" width="50" height="50"></v-img>
+      <v-img src="../assets/Image/Brands/Vans_Logo.jpg" width="50" height="50"></v-img>
     </div>
+    <v-divider></v-divider>
   </vContainer>
 </template>
 <script>
@@ -56,24 +54,7 @@ export default {
           image:
             "https://image.goat.com/375/attachments/product_template_pictures/images/020/806/485/original/461782_00.png.png",
         },
-      ],
-      select: [
-        {
-          name: "Men",
-          image:
-            "https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_593,c_limit/b390a223-23f1-4d94-b089-832e0e424fe1/men-s-shoes-clothing-accessories.jpg",
-        },
-        {
-          name: "Women",
-          image:
-            "https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_593,c_limit/ca60cd81-4cc5-4372-b3d0-90418e948cab/women-s-shoes-clothing-accessories.png",
-        },
-        {
-          name: "Kids",
-          image:
-            "https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_906,c_limit/bce0f912-703c-4f28-8ec7-bc7e49b3eb2a/nike-kids.png",
-        },
-      ],
+      ]
     };
   },
 };
